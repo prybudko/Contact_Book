@@ -35,12 +35,28 @@ class Register
                 // Добавляем нового пользователя
                 $query = "INSERT INTO users SET userLogin='" . $login . "', userPassword='" . $password . "', email='" . $email . "'";
                 $result = mysqli_query($this->db->mysqli, $query) or die('not done2');
+
+                // Узнаем id добавленного пользователя
+                $query = "SELECT userId FROM users WHERE userLogin='" . mysqli_real_escape_string($this->db->mysqli, $_POST['login']) . "' LIMIT 1";
+                $result = mysqli_query($this->db->mysqli, $query) or die('not done');
+                $data = mysqli_fetch_assoc($result);
+
                 //Делаем для того, чтобы сразу зайти на домашнюю страницу
                 $entrance = new Entrance();
+
+                // Генерируем случайное число и шифруем его
+                $hash = md5($entrance->generateCode(10));
+
+                // Записываем в БД новый хеш авторизации
+                $query = "UPDATE users SET userHash='" . $hash . "'  WHERE userId='" . $data['userId'] . "'";
+                mysqli_query($this->db->mysqli, $query);
+
+                // Ставим куки
+                setcookie("id", $data['userId'], time() + 60 * 60 * 24 * 30);
+                setcookie("hash", $hash, time() + 60 * 60 * 24 * 30);
                 $_SESSION['userLogin'] = $login;
                 $_SESSION['login'] = $entrance->getUserId($login);
                 $this->sendEmail();
-                //header("Location: ../entrance/Home.php");
             } else {
                 echo "<b>При регистрации произошли следующие ошибки:</b><br>";
               foreach ($this->err AS $error) {
