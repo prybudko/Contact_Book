@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7649291-d139-4bc1-a6bd-1ad4ed9cb056" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration/Register.php" afterPath="$PROJECT_DIR$/registration/Register.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/registration/Register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="460">
               <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <marker date="1522935385205" expanded="true" signature="1063:1169" ph="INSERT INTO users... " />
@@ -39,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Entrance.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Entrance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Entrance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="370">
               <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
               <folding>
                 <marker date="1522775008597" expanded="true" signature="849:977" ph="SELECT user_... users" />
@@ -129,7 +131,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -238,15 +240,15 @@
       <workItem from="1522673332292" duration="6879000" />
       <workItem from="1522769699777" duration="6026000" />
       <workItem from="1522851231344" duration="1703000" />
-      <workItem from="1522934501913" duration="879000" />
+      <workItem from="1522934501913" duration="967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148677000" />
+    <option name="totallyTimeSpent" value="148765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18455882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -629,27 +631,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Entrance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <folding>
+            <marker date="1522775008597" expanded="true" signature="849:977" ph="SELECT user_... users" />
+            <marker date="1522775008597" expanded="true" signature="1441:1522" ph="UPDATE users... " />
+            <marker date="1522775008597" expanded="true" signature="2337:2433" ph="SELECT userI... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/registration/Register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="460">
           <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <marker date="1522935385205" expanded="true" signature="1063:1169" ph="INSERT INTO users... " />
             <marker date="1522935385205" expanded="true" signature="2422:2530" ph="SELECT userI... users" />
             <marker date="1522935385205" expanded="true" signature="2824:2936" ph="SELECT userI... users" />
             <marker date="1522935385205" expanded="true" signature="3282:3387" ph="SELECT email... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Entrance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding>
-            <marker date="1522775008597" expanded="true" signature="849:977" ph="SELECT user_... users" />
-            <marker date="1522775008597" expanded="true" signature="1441:1522" ph="UPDATE users... " />
-            <marker date="1522775008597" expanded="true" signature="2337:2433" ph="SELECT userI... users" />
           </folding>
         </state>
       </provider>
