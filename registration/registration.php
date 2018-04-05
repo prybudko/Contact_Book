@@ -42,7 +42,7 @@ if (!empty($_POST)){
         </section>
 
         <section class="container two">
-            <input type="submit" name="submit" value="Зарегистрироваться">
+            <button class="button" name="submit">Зарегистрироваться</button>
         </section>
     </form>
     <div id = "divError"></div>
