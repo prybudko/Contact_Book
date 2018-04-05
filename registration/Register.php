@@ -39,11 +39,10 @@ class Register
                 $entrance = new Entrance();
                 $_SESSION['userLogin'] = $login;
                 $_SESSION['login'] = $entrance->getUserId($login);
-               // $this->sendEmail();
+                $this->sendEmail();
                 //header("Location: ../entrance/Home.php");
             } else {
                 echo "<b>При регистрации произошли следующие ошибки:</b><br>";
-
               foreach ($this->err AS $error) {
                  echo $error . "<br>";
                 }
